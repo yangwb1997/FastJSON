@@ -57,6 +57,7 @@ class FastJsonApplicationTests {
         List<Map<String, Object>> listMaps = new ArrayList<>();
         listMaps.add(map);
         listMaps.add(map2);
+        System.out.println("2022");
 
         String s3 = JSON.toJSONString(listMaps);
 
